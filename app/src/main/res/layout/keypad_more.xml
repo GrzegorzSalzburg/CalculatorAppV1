@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="202dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button"
+            style="@style/buttonOperatorAdd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="allClearAction"
+            android:text="sin"
+            android:textColor="@color/green"
+            tools:ignore="TextContrastCheck" />
+
+        <Button
+            android:id="@+id/button2"
+            style="@style/buttonOperatorAdd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="backSpaceAction"
+            android:text="cos"
+            android:textColor="@color/green"
+            tools:ignore="TextContrastCheck" />
+
+        <Button
+            android:id="@+id/button3"
+            style="@style/buttonOperatorAdd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="tg"
+            tools:ignore="SpeakableTextPresentCheck,TextContrastCheck" />
+
+        <Button
+            android:id="@+id/button4"
+            style="@style/buttonOperatorAdd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ctg"
+            tools:ignore="TextContrastCheck" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button5"
+            style="@style/buttonOperatorAdd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="allClearAction"
+            android:text="log"
+            android:textColor="@color/green"
+            tools:ignore="TextContrastCheck" />
+
+        <Button
+            android:id="@+id/button6"
+            style="@style/buttonOperatorAdd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="backSpaceAction"
+            android:text="ln"
+            android:textColor="@color/green"
+            tools:ignore="TextContrastCheck" />
+
+        <Button
+            android:id="@+id/button7"
+            style="@style/buttonOperatorAdd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="x^2"
+            tools:ignore="SpeakableTextPresentCheck,TextContrastCheck" />
+
+        <Button
+            android:id="@+id/button8"
+            style="@style/buttonOperatorAdd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="x^y"
+            tools:ignore="TextContrastCheck" />
+    </LinearLayout>
+</LinearLayout>
