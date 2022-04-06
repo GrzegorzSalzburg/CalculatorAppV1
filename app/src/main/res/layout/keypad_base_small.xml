@@ -22,7 +22,7 @@
             style="@style/buttonOperatorSmall"
             android:onClick="backSpaceAction"
             android:text="⌫"
-            android:textColor="@color/orange"
+            android:textColor="@color/purple_500"
             tools:ignore="TextContrastCheck" />
 
         <Button
@@ -71,7 +71,7 @@
             android:text="6" />
 
         <Button
-            style="@style/buttonNumberSmall"
+            style="@style/buttonOperatorSmall"
             android:text="-"
             tools:ignore="TextContrastCheck" />
 
@@ -111,7 +111,7 @@
             android:layout_height="match_parent"
             android:layout_width="0dp"
             android:layout_weight="2"
-            android:background="@color/orange"
+            android:background="@color/purple_500"
             android:onClick="equalsAction"
             android:text="="
             android:textColor="@color/white"
