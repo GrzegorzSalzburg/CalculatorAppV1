@@ -15,36 +15,22 @@
         android:orientation="vertical">
 
         <Button
-            android:id="@+id/button"
-            style="@style/buttonOperatorAdd"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:onClick="allClearAction"
+            style="@style/buttonFunctionAdd"
             android:text="sin"
             tools:ignore="TextContrastCheck" />
 
         <Button
-            android:id="@+id/button2"
-            style="@style/buttonOperatorAdd"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:onClick="backSpaceAction"
+            style="@style/buttonFunctionAdd"
             android:text="cos"
             tools:ignore="TextContrastCheck" />
 
         <Button
-            android:id="@+id/button3"
-            style="@style/buttonOperatorAdd"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            style="@style/buttonFunctionAdd"
             android:text="tg"
             tools:ignore="SpeakableTextPresentCheck,TextContrastCheck" />
 
         <Button
-            android:id="@+id/button4"
-            style="@style/buttonOperatorAdd"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            style="@style/buttonFunctionAdd"
             android:text="ctg"
             tools:ignore="TextContrastCheck" />
     </LinearLayout>
@@ -56,36 +42,22 @@
         android:orientation="vertical">
 
         <Button
-            android:id="@+id/button5"
-            style="@style/buttonOperatorAdd"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:onClick="allClearAction"
+            style="@style/buttonFunctionAdd"
             android:text="log"
             tools:ignore="TextContrastCheck" />
 
         <Button
-            android:id="@+id/button6"
-            style="@style/buttonOperatorAdd"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:onClick="backSpaceAction"
+            style="@style/buttonFunctionAdd"
             android:text="ln"
             tools:ignore="TextContrastCheck" />
 
         <Button
-            android:id="@+id/button7"
-            style="@style/buttonOperatorAdd"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            style="@style/buttonFunctionAdd"
             android:text="x^2"
             tools:ignore="SpeakableTextPresentCheck,TextContrastCheck" />
 
         <Button
-            android:id="@+id/button8"
-            style="@style/buttonOperatorAdd"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            style="@style/buttonFunctionAdd"
             android:text="x^y"
             tools:ignore="TextContrastCheck" />
     </LinearLayout>

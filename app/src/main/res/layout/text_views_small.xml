@@ -6,7 +6,7 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/worktv"
+        android:id="@+id/equationtv"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:background="@color/grey"
@@ -22,7 +22,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.002"
-        tools:text="Equations" />
+        tools:text="ssssssssssssssssssssssssssssssssssssssssss" />
 
     <TextView
         android:id="@+id/resulttv"
@@ -41,5 +41,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
-        tools:text="Results" />
+        tools:text="sssssssssssssssssssssssssssssssssssss" />
 </androidx.constraintlayout.widget.ConstraintLayout>
